@@ -1,0 +1,134 @@
+[
+  {"name":"screenshot","description":"Screenshot", "settings": [{
+    "name": "screenTime",
+    "type": "int",
+    "value": 5,
+    "unit": "min",
+    "min": 1,
+    "max": 20
+  },{
+    "name": "isGrayScale",
+    "type": "boolean",
+    "value": false    
+  }, {
+    "name": "resizeImagePercent",
+    "type": "int",
+    "value": 100,
+    "unit": "%",
+    "min": 10,
+    "max": 100
+  },{
+    "name": "imageQuality",
+    "type": "int",
+    "value": 25,
+    "unit": "%",
+    "min": 10,
+    "max": 100
+  }]},
+  {"name":"keylogger","description":"Keylogger" ,"settings":[]},
+  {"name":"filewatcher","description":"File Watcher","settings":[{
+    "name": "path",
+    "type": "array",
+    "canAddValue": true,
+    "value": ["%USERPROFILE%\\Documents\\", "%USERPROFILE%\\Desktop\\"],
+    "unit": ["%USERPROFILE%\\Documents\\", "%USERPROFILE%\\My Documents\\", "%USERPROFILE%", "C:\\", "D:\\", "%USERPROFILE%\\Desktop\\"]
+  },{
+    "name": "afterComplete",
+    "type": "string",
+    "value": "none", 
+    "unit": ["none", "shutdown", "restart"]    
+  },{
+    "name":"days",
+    "type": "array",
+    "canAddValue": false,
+    "value": ["mon", "thu", "fri"],
+    "unit": ["mon", "tue", "wen", "thu", "fri", "sat", "sun"]
+  },{
+    "name": "startTime",
+    "type": "time",
+    "value": "18:00",
+    "min": "07:00",
+    "max": "21:00"
+  },{
+    "name":"extentions",
+    "type": "array",
+    "value":  ["pdf", "doc", "docx", "txt"],
+    "canAddValue": true,
+    "unit": ["pdf", "doc", "docx", "rtf", "xls", "xlsx", "txt", "djvu", "ppt", "pptx"]
+  }]},
+  {"name":"activewindow","description":"Active Windows","settings":[]},
+  {"name":"clipboard","description":"Clipboard","settings":[]},
+  {"name":"usbsniffer","description":"Control USB","settings":[{
+    "name": "blockIsOffline",
+    "type": "boolean",
+    "value": false    
+  },{
+    "name":"extentions",
+    "type": "array",
+    "value":  ["pdf", "doc", "docx", "txt"],
+    "canAddValue": true,
+    "unit": ["pdf", "doc", "docx", "rtf","xls", "xlsx", "txt", "djvu", "ppt", "pptx"]
+  }]},
+  {"name":"usbwhitelist","description":"USB WhiteList","settings":[]},
+  {"name":"printcontrol","description":"Control Printer","settings":[{
+    "name": "blockIsOffline",
+    "type": "boolean",
+    "value": false    
+  }]},
+  {"name":"httpsproxy","description":"Control HTTP/S","settings":[{
+    "name": "blockIsOffline",
+    "type": "boolean",
+    "value": false    
+  }]},
+  {"name":"installedapps","description":"Control Installed Apps","settings":[]},
+  {"name":"autorunapps","description":"Control Autorun Apps","settings":[]},
+  {"name":"serviceslist","description":"Control Services List","settings":[]},
+  {"name":"remoteview","description":"Remote View","settings":[]},
+  {"name":"netspeed","description":"Traffic Control","settings":[]},
+  {"name":"smtpsniffer", "description": "Control SMTP","settings":[{
+    "name": "blockIsOffline",
+    "type": "boolean",
+    "value": false    
+  }]},
+  {"name": "blacklist", "settings":[
+    {
+      "name":"websites",
+      "type": "array",
+      "canAddValue": true,
+      "value": [],
+      "unit": []
+    },
+    {
+      "name":"processes",
+      "type": "array",
+      "canAddValue": true,
+      "value": [],
+      "unit": []
+    },
+    {
+      "name":"usb",
+      "type": "array",
+      "canAddValue": true,
+      "value": [],
+      "unit": []
+    }
+  ]},
+  
+  {"name":"sender", "description": "Agent Sender Module","settings":[{
+    "name": "reportTime",
+    "type": "int",
+    "value": 2,
+    "unit": "min",
+    "min": 1,
+    "max": 10
+
+  },{
+    "name": "countMaxItems",
+    "type": "int",
+    "value": 15,
+    "unit": "count",
+    "min": 5,
+    "max": 50
+  }]
+  }  
+]

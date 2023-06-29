@@ -1,0 +1,7 @@
+[
+    { "name" : "firefox"},
+    { "name" : "chrome"},
+    { "name" : "opera"},
+    { "name" : "MicrosoftEdge"},   
+    { "name" : "browser"}   
+]

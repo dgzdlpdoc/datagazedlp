@@ -1,0 +1,13 @@
+[
+  { "name" : "Google+", "description": "Google Plus"},
+  { "name" : "Hangouts", "description": "Google Hangouts"},
+  { "name" : "Facebook", "description": "Facebook"},
+  { "name" : "Twitter", "description": "Твиттер Twitter"},
+  { "name" : "OK.RU", "description": "Одноклассники"},
+  { "name" : "YouTube", "description": "YouTube"},
+  { "name" : "Instagram", "description": "Instagram"},
+  { "name" : "Telegram Web", "description": "Telegram Web"},
+  { "name" : "Skype", "description": "Skype Web"},
+  { "name" : "Pinterest", "description": "Pinterest"},
+  { "name" : "Linkedln", "description": "Linkedln"}
+]

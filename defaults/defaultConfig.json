@@ -1,0 +1,55 @@
+{
+  "modules": "screenshot,keylogger,activewindow,clipboard,installedapps,autorunapps,serviceslist,remoteview,printcontrol,httpsproxy,netspeed,usbwhitelist,usbsniffer,smtpsniffer",
+  "data":[
+    {"name":"screenshot", 
+      "settings": [{
+      "name": "screenTime",      
+      "value": "5"      
+    },{
+      "name": "isGrayScale",
+      "value": "false"    
+    }, {
+      "name": "resizeImagePercent",
+      "value": "100"      
+    },{
+      "name": "imageQuality",
+      "value": "25"
+    }]},
+    {"name":"keylogger","settings":[]},
+    {"name":"activewindow","settings":[]},
+    {"name":"clipboard","settings":[]},
+    {"name":"usbsniffer","settings":[{
+      "name": "blockIsOffline",
+      "value": "false"    
+    },{
+      "name":"extentions",
+      "value": ["pdf", "doc", "docx", "rtf", "xls", "xlsx", "txt", "djvu", "ppt", "pptx"]
+    }]},
+    {"name":"usbwhitelist","settings":[]},
+    {"name":"printcontrol","settings":[{
+      "name": "blockIsOffline",     
+      "value": false    
+    }]},
+    {"name":"httpsproxy","settings":[{
+      "name": "blockIsOffline",
+      "value": "false"   
+    }]},
+    {"name":"installedapps","settings":[]},
+    {"name":"autorunapps","settings":[]},
+    {"name":"serviceslist","settings":[]},
+    {"name":"remoteview","settings":[]},
+    {"name":"netspeed","settings":[]},
+    {"name":"smtpsniffer", "settings":[{
+      "name": "blockIsOffline",
+      "value": "false"   
+    }]},
+    {"name":"sender", "settings":[{
+      "name": "reportTime",      
+      "value": "2"  
+    },{
+      "name": "countMaxItems",     
+      "value": "15"     
+    }]
+    }
+  ]  
+}
